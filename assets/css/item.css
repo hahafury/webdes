@@ -1,0 +1,179 @@
+.chr{
+    width:100%;
+    color:#c7c7c7a8;
+    margin:40px 0 40px 0;
+}
+
+.slick-prev:before{
+    content:url('../img/left-arrow.png');
+    position:absolute;
+    right:0px;
+    top:-15px;
+}
+
+.slick-next:before{
+    content:url('../img/right-arrow.png');
+    position:absolute;
+    left:0px;
+    top:-15px;
+}
+
+main .wrapper .consoleItem{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+main .wrapper .consoleItem .mainInfo{
+    display: flex;
+    align-items: center;
+    margin-top:80px;
+}
+
+main .wrapper .consoleItem .mainInfo .images{
+    width:40%;
+    height:auto;
+}
+
+main .wrapper .consoleItem .mainInfo .slider-for img,iframe{
+    height:500px;
+    object-fit: contain;
+    width:518px;
+}
+
+main .wrapper .consoleItem .mainInfo .slider-nav{
+    margin-top:40px;
+}
+
+main .wrapper .consoleItem .mainInfo .slider-nav .item + .item{
+    margin-left: 20px;
+}
+
+main .wrapper .consoleItem .mainInfo .slider-nav img,iframe{
+    height:110px;
+    object-fit: cover;
+    width:110px;
+}
+
+main .wrapper .consoleItem .mainInfo .slider-nav .item:hover{
+    cursor:pointer;
+}
+
+main .wrapper .consoleItem .mainInfo .slider-nav .item:focus{
+    outline: none !important;
+}
+
+main .wrapper .consoleItem .mainInfo .info{
+    margin-left:80px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height:650px;
+    padding:40px;
+}
+
+main .wrapper .consoleItem .mainInfo .info .name {
+    font-size:30px;
+    letter-spacing: 0.6px;
+    padding:0;
+}
+
+main .wrapper .consoleItem  .mainInfo .info > div{
+    padding-top:15px;
+}
+
+main .wrapper .consoleItem .mainInfo .info .price{
+    padding-top:40px;
+    font-size:20px;
+    letter-spacing: 5px;;
+}
+
+main .wrapper .consoleItem .mainInfo .info .rate{
+    display:flex;
+}
+
+main .wrapper .consoleItem .mainInfo .info .rate img{
+    width:17px;
+    height:17px;
+}
+
+main .wrapper .consoleItem .mainInfo .info .code{
+    font-weight: 400;
+}
+
+main .wrapper .consoleItem .mainInfo .info span{
+    color:#c7c7c7a8;
+}
+
+.consoleDesc{
+    margin-top:80px;
+    flex-direction: column;
+    display: flex;
+    height:auto;
+}
+
+.consoleDesc h3{
+    color:white;
+    text-align: center;
+    font-size:30px;
+    letter-spacing: 5px;
+}
+
+.consoleDesc .consoleDescDiv{
+    height:300px;
+    background-color: #160f1d;
+    margin-top:40px;
+    padding:40px;
+}
+
+.consoleDesc .consoleDescDiv, .gameTechnicalСharacteristics p{
+    color:white;
+}
+
+.consoleDesc .consoleDescDiv, .gameTechnicalСharacteristics div{
+    color:#c7c7c7a8;
+}
+
+.consoleDesc .gameTechnicalСharacteristics{
+    margin-top:40px;
+    height:470px;
+    background-color: #160f1d;
+    color:white;
+    padding:40px;
+    display:flex;
+    box-shadow: 1px 1px 26px -2px rgba(0,0,0,1);
+}
+
+.consoleDesc .gameTechnicalСharacteristics .tech{
+    width:30%;
+}
+.consoleDesc .gameTechnicalСharacteristics .charact{
+    width:70%;
+}
+.consoleDesc .gameTechnicalСharacteristics .tech, .charact{
+    display:flex;
+    flex-direction: column;
+}
+
+.consoleDesc .gameTechnicalСharacteristics .tech .item{
+    border-right:1px solid purple;
+}
+
+.consoleDesc .gameTechnicalСharacteristics .item:nth-child(6){
+    border-bottom:1px solid purple;
+}
+
+.consoleDesc .gameTechnicalСharacteristics .item{
+    border-top: 1px solid purple;
+    border-bottom:
+}
+
+.consoleDesc .gameTechnicalСharacteristics .tech .item{
+    padding:20px;
+}
+
+.consoleDesc .gameTechnicalСharacteristics .charact .item{
+    padding: 20px 20px 20px 60px;
+}

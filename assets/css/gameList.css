@@ -1,0 +1,84 @@
+.ourProducts .wrapper .gameList{
+    display:flex;
+    flex-direction: column;
+    padding-top:40px;
+}
+
+.ourProducts .wrapper .gameList .gameItem{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ourProducts .wrapper .gameList > div + div{
+    padding-top:40px;
+}
+
+.ourProducts .wrapper .gameList .gameItem{
+    height:200px;
+    width:1300px;
+    background-color: rgb(226, 222, 228);
+    display: flex;
+    transition: background-color 0.5s;
+}
+
+.ourProducts .wrapper .gameList .gameItem .img{
+    width:400px;
+}
+
+.ourProducts .wrapper .gameList .gameItem .img img{
+    width:inherit;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ourProducts .wrapper .gameList .gameItem .desc{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:40px;
+    padding-left:40px;
+}
+
+.ourProducts .wrapper .gameList .gameItem .desc .name{
+    color:black;
+    font-size:20px;
+    font-weight: 500;
+}
+
+.ourProducts .wrapper .gameList .gameItem .desc .shortDesc{
+    color:rgb(85, 84, 84);
+    font-weight: 400;
+    margin-top:15px;
+}
+
+.ourProducts .wrapper .gameList .gameItem .desc .platforms{
+    display: flex;
+    flex-direction: row;
+    margin-top:15px;
+}
+
+.ourProducts .wrapper .gameList .gameItem .desc .platforms img{
+    width:24px;
+    height:24px;
+}
+
+.ourProducts .wrapper .gameList .gameItem .desc .platforms img + img{
+    margin-left:10px;
+}
+
+.ourProducts .wrapper .gameList .gameItem .price{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color:black;
+    font-size:25px;
+    padding:40px;
+    font-weight: 400;
+    margin-left: auto;
+}
+main .ourProducts .wrapper .gameItem:hover{
+    background-color: whitesmoke;
+    transition: 0.5s;
+}

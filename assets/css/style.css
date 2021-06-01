@@ -1,0 +1,598 @@
+a{
+    text-decoration: none !important;
+    color:rgb(207, 207, 207);
+
+    transition: 1s;
+}
+
+ul{
+    padding-left: 0;
+}
+
+.active{
+    text-decoration:underline !important;
+}
+
+a:hover{
+    color:white;
+    transition: 0.5s;
+}
+
+.hhp{
+    width: 80px;
+    margin-top:30px;
+}
+
+header,main,footer{
+    overflow: hidden;
+}
+
+
+.overlay{
+    position: absolute;
+    width:620px;
+    height:386px;
+    background:#000;
+    opacity:0.6;
+}
+
+.mp{
+    color:black;
+    letter-spacing: 5px;
+    font-size:30px;
+    font-weight: 800;
+    padding:0;
+    left:100px;
+    z-index:2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.mp:before {
+    content: 'Most Popular';
+    position: absolute;
+    background: #ffffff;
+    width: 250px;
+    display: flex;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-self: center;
+    top: 131px;
+    height: 50px;
+    left: 190px;
+    font-size:20px;
+    z-index: -1;
+    font-style: normal;
+    padding-left:35px;
+    transform: skew(
+-20deg
+);
+}
+
+body{
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
+    background-color: #1d1427;
+}
+
+header{
+    height:80px;
+    background: #1d1427;
+    box-shadow: 0px 5px 11px 3px #000000;
+    position: fixed;
+    width:100%;
+    z-index: 10;
+}
+
+.wrapper{
+    width:1300px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+header .wrapper .logo{
+    display: flex;
+    justify-content: center;
+}
+
+header .wrapper .logo img{
+    width:80px;
+    height:70px;
+    align-self: center;
+}
+
+header .wrapper .navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header .wrapper .navbar a{
+    color:rgb(207, 207, 207);
+    text-decoration: none;
+    padding: 27px 27px 27px;
+    font-weight: 500;
+    color: #c7c7c7;
+    display: block;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+    position: relative;
+    width: auto;
+    transition: 1s ease;
+}
+
+header .wrapper .navbar a:hover{
+    color:white;
+    transition: color 1s;
+}
+
+header .wrapper .navbar .search,.user{
+    width:1em;
+    height:1em;
+    margin: 27px 27px 27px 27px;
+}
+
+main .banner{
+    height:800px;
+    background-image: url('https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/QDaRpXJyMxLjNvrNbpTgXf41.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+main .banner img{
+    width: 100%;
+    height:inherit;
+    object-fit: cover;
+    position:absolute;
+    z-index:5;
+}
+
+main .banner .description{
+    width:50%;
+    height:100%;
+    position:relative;
+    height:800px;
+    z-index: 6;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+main .banner .description .upStock{
+    color:black;
+    letter-spacing: 5px;
+    font-size:30px;
+    font-weight: 800;
+    padding:0;
+    left:100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-left: -30px;
+}
+
+.upStock:before {
+    content: '';
+      position: absolute;
+      background: #810808;
+      width: 410px;
+      height: 70px;
+      left: -57px;
+      z-index: -1;
+      transform: skew(-20deg);
+}
+
+main .banner .description .name{
+    padding-top:40px;
+    color:white;
+    position: relative;
+    left:100px;
+    letter-spacing: 5px;
+    font-size:60px;
+    margin-left: -105px;
+}
+
+main .banner .description button{
+    width:140px;
+    position: relative;
+    left:100px;
+    margin-left: -100px;
+    margin-top:40px;
+    background-color: white;
+    outline: none;
+    font-weight: 500;
+    height:50px;
+    font-size:20px;
+    border:none;
+    transition: 0.5s ease;
+}
+
+main .banner .description a button{
+    color:black;
+}
+
+main .banner .description button:hover{
+    cursor:pointer;
+    color:white;
+    background-color: #810808;
+    transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+main .additionalInfo{
+    display:flex;
+    padding-top:80px;
+    padding-bottom:80px;
+    flex-direction: row;
+}
+
+main .additionalInfo .wrapper{
+    display:flex;
+}
+
+main .additionalInfo .wrapper > div{
+    display: flex;
+    flex-direction: row;
+    padding-right:20px;
+    border-right:1px solid rgba(255, 255, 255, 0.452);
+    justify-content: space-between;
+}
+
+main .additionalInfo .wrapper > div:nth-child(4){
+    border:none;
+}
+
+main .additionalInfo .wrapper div img{
+    width:50px;
+    height:50px;
+}
+
+main .additionalInfo .wrapper div .additionalInfoText{
+    display:flex;
+    flex-direction: column;
+    margin-left:20px;
+}
+
+main .additionalInfo .wrapper div .additionalInfoText p:nth-child(1){
+    color:white;
+    font-weight: 500;
+    font-size:17px;
+}
+
+main .additionalInfo .wrapper div .additionalInfoText p:nth-child(2){
+    color:grey;
+    font-weight: 500;
+    font-size:17px;
+}
+
+main .mostPopular{
+    display:flex;
+    height: auto;
+}
+
+main .mostPopular .wrapper a{
+    opacity: 0.5;
+    transition: 1s ease;
+}
+
+main .mostPopular .wrapper a:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+main .mostPopular .wrapper .mostPopularConsole{
+    width:620px;
+    margin-right:20px;
+    height:386px;
+    background: url('https://images.unsplash.com/photo-1607853202273-797f1c22a38e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
+}
+
+main .mostPopular .wrapper .mostPopularConsole .mostPopularGameDescription{
+    display:flex;
+    flex-direction: column;
+}
+
+main .mostPopular .wrapper .mostPopularGame{
+    width:620px;
+    margin-left:20px;
+    height:386px;
+    background: url('https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_DyingLight2StayHuman_Techland_S3_2560x1440-f1dcd15207f091674615ccb4bd9dc3c7?h=270&resize=1&w=480');
+    background-position: center;
+    background-size: cover;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);
+}
+
+
+main .mostPopular .wrapper .mostPopularGame .mostPopularGameDescription{
+    display:flex;
+    flex-direction: column;
+}
+
+main .mostPopular .wrapper p{
+    position: relative;
+    left:280px;
+    top:200px;
+    color:white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+main .ourProducts .wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    padding-top:80px;
+}
+main .ourProducts .wrapper h3{
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    outline:brown;
+}
+
+main .ourProducts .wrapper .products{
+    padding-top:30px;
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    padding-bottom:80px;
+}
+
+main .ourProducts .wrapper .products a{
+    color:white;
+    opacity: 0.5;
+    transition: 1s ease;
+}
+
+
+main .ourProducts .wrapper .products a:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+main .ourProducts .wrapper .products .consoleCard{
+    width: 300px;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.4);   
+}
+
+main .ourProducts .wrapper .products .consoleCard .cardImage{
+    height:350px;
+    background-color: #21182c;
+    padding:40px;
+}
+
+main .ourProducts .wrapper .products .consoleCard .cardImage img{
+    object-fit: cover;
+    height:300px;
+    width:300px;
+}
+
+main .ourProducts .wrapper .products .consoleCard .cardDesc{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #180f23;
+    padding:20px;
+    height:150px;
+}
+
+main .ourProducts .wrapper .products .consoleCard .cardDesc p:nth-child(1){
+    font-size:30px;
+}
+
+main .ourProducts .wrapper .products{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+main .ourProducts .wrapper  .games{
+    height:500px;
+    width:100%;
+    background-image:url('../img/games.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    opacity: 0.7;
+    transition: 1s ease;
+    box-shadow: 1px 1px 26px -2px rgba(0,0,0,1);
+}
+
+main .ourProducts .wrapper .games .mp{
+    color:black;
+    letter-spacing: 5px;
+    font-size:30px;
+    font-weight: 800;
+    padding:0;
+    left:100px;
+    z-index:2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+main .ourProducts .wrapper .games .mp:before{
+    content: 'Games';
+    position: absolute;
+    background: #ffffff;
+    width: 250px;
+    display: flex;
+    letter-spacing: 3px;
+    align-items: center;
+    justify-self: center;
+    top: 200px;
+    height: 50px;
+    left: 800px;
+    right: 0;
+    bottom:0;
+    font-size:20px;
+    z-index: -1;
+    font-style: normal;
+    padding-left:35px;
+    transform: skew(
+-20deg);
+}
+
+main .ourProducts .wrapper .games a{
+    width:1300px;
+    height:500px;
+    display:block;
+}
+
+main .ourProducts .wrapper .games:hover{
+    opacity:1;
+    transition: 1s ease;
+}
+
+footer{
+    margin-top:80px;
+    height:510px;
+    background:#21182c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 1px 26px -2px rgba(0,0,0,1);
+}
+
+footer .wrapper{
+    display:flex;
+    flex-direction: column;
+}
+
+footer .wrapper .topFooter{
+    display:flex;
+    flex-direction: row;
+    color:white;
+    justify-content: space-between;
+    height:451px;
+}
+
+footer .wrapper .topFooter p{
+    font-size:23px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    padding-top:40px;
+}
+
+footer .wrapper .topFooter .aboutUs li{
+    list-style-type: none;
+    max-width: 300px;
+    display: flex;
+    padding-top:20px;
+}
+
+footer .wrapper .topFooter .aboutUs li i{
+    padding-top:3px;
+}
+
+footer .wrapper .topFooter .aboutUs li i + span{
+    margin-left:20px;
+}
+
+footer .wrapper .topFooter .navFooter{
+    max-width: 300px;
+}
+
+footer .wrapper .topFooter .navFooter li{
+    list-style-type: none;
+    padding-top:20px;
+}
+
+
+footer .wrapper .topFooter .navFooter li a:hover{
+    border-bottom:1px solid white;
+    transition: 0.5;
+}
+
+footer .wrapper .topFooter .ourNewsletter{
+    display:flex;
+    flex-direction: column;
+}
+
+
+footer .wrapper .topFooter .ourNewsletter li{
+    max-width: 300px;
+    list-style-type: none;
+}
+
+footer .wrapper .topFooter .ourNewsletter input{
+    min-width: 300px;
+    margin-top:20px;
+    height:50px;
+}
+
+footer .wrapper .topFooter .ourNewsletter input:focus{
+    outline: none;
+}
+
+footer .wrapper .topFooter .ourNewsletter i:nth-child(1){
+    color:black;
+    transition:color 1s;
+}
+
+footer .wrapper .topFooter .ourNewsletter button{
+    position: relative;
+    left: 120px;
+    top: -38px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color:black;
+    transition: 1s;
+}
+
+footer .wrapper .topFooter .ourNewsletter button i:hover{
+    color:red;
+    transition: 1s;
+}
+
+footer .wrapper .topFooter .ourNewsletter a i {
+    color:white !important;
+    height:50px;
+}
+
+
+footer .wrapper .topFooter .ourNewsletter .socialContact a + a{
+    margin-left:20px;
+}
+
+footer .bottomFooter{
+    height:70px;
+    width:100%;
+    border-top:1px solid rgba(255, 255, 255, 0.61);
+    background-color: #2b1d3b;
+}
+
+footer .bottomFooter .wrapper{
+    display: flex;
+    align-items: flex-start;
+}
+
+footer .bottomFooter .wrapper .leftbottom{
+    color:white;
+    padding-top:25px;
+}
+
+footer .wrapper .topFooter .ourNewsletter p:nth-child(2){
+    max-width: 300px;
+    font-size: 15px;
+}

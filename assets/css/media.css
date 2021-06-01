@@ -1,0 +1,458 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    nav{
+        display:none;
+    }
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .wrapper{
+        width:768px;
+    }
+    main .mostPopular .wrapper .mostPopularConsole, .overlay{
+        width:344px;
+    }
+    main .mostPopular .wrapper .mostPopularGame, .overlay{
+        width:344px;
+    }
+    .mp:before{
+        left: -50px;
+    }
+    main .additionalInfo .wrapper div .additionalInfoText p:nth-child(1){
+        font-size: 12px;
+    }
+    main .additionalInfo .wrapper div .additionalInfoText p:nth-child(2){
+        font-size: 12px;
+    }
+    main .additionalInfo .wrapper > div{
+        padding-left:20px;
+    }
+    main .mostPopular .wrapper p{
+        font-size: 30px;
+        left: 40px;
+    }
+    main .ourProducts .wrapper .products .consoleCard{
+        margin-bottom:40px;
+    }
+    main .ourProducts .wrapper .games .mp:before{
+        left: 350px;
+        top:250px;
+    }
+    .ourProducts .wrapper .gameList .gameItem{
+        width:768px;
+    }
+    .ourProducts .wrapper .gameList .gameItem .img img{
+        width:320px;
+    }
+    .ourProducts .wrapper .gameList .gameItem .desc{
+        width:320px;
+        padding: 25px;
+        justify-content: space-between;
+    }
+    .ourProducts .wrapper .gameList .gameItem .price{
+        padding:25px;
+        width: 200px;
+    }
+    main .wrapper .consoleItem .mainInfo{
+        flex-direction: column;
+        
+    }
+    main .wrapper .consoleItem .mainInfo .info{
+        margin-top:40px;
+    }
+    main .wrapper .consoleItem .mainInfo .info{
+        margin-left:0;
+    }
+    main .wrapper .consoleItem .mainInfo .images{
+        width:100%;
+    }
+    .consoleDesc .gameTechnicalСharacteristics{}
+
+    main .wrapper .consoleItem .mainInfo .info{
+        height:auto;
+    }
+    main .wrapper .consoleItem .mainInfo .slider-for img, iframe{
+        width:768px;
+    }
+
+    main .wrapper .consoleItem .mainInfo .slider-nav img, iframe{
+        width:210px;
+    }
+
+    main .wrapper .consoleItem .mainInfo .slider-nav .item + .item{
+        margin-left:0;
+    }
+    footer .wrapper .topFooter{
+        height:400px;
+    }
+    footer{
+        height:459px;
+    }
+    main .additionalInfo .wrapper > div:nth-child(1){
+        padding-left:0
+    }
+    .consoleDesc .consoleDescDiv{
+        height:auto;
+    }
+    main .ourProducts .wrapper .games a{
+        width:768px;
+    }
+    nav{
+        display:none;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    header.main{
+        display:none;
+    }
+    nav{
+        display:block;
+    }
+    .wrapper{
+        width:480px;
+    }
+
+    main .mostPopular .wrapper .mostPopularConsole{
+        margin-bottom:40px;
+    }
+
+    main .additionalInfo .wrapper div img{
+        width:40px;
+        height:40px;
+    }
+    main .mostPopular .wrapper .mostPopularConsole, .overlay{
+        width:480px;
+        margin-right:0;
+    }
+    main .mostPopular .wrapper .mostPopularGame, .overlay{
+        width:480px;
+        margin-left:0;
+    }
+    main .mostPopular .wrapper{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mp:before{
+        left: 100px;
+    }
+    main .additionalInfo .wrapper div .additionalInfoText p:nth-child(1){
+        font-size: 10px;
+    }
+    main .additionalInfo .wrapper div .additionalInfoText p:nth-child(2){
+        font-size: 10px;
+    }
+
+    main .ourProducts .wrapper .products{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .additionalInfo .wrapper > div{
+        padding-left:20px;
+    }
+    main .mostPopular .wrapper p{
+        font-size: 30px;
+        left: 190px;
+    }
+    main .ourProducts .wrapper .products .consoleCard{
+        margin-bottom:40px;
+    }
+    main .ourProducts .wrapper .games .mp:before{
+        left: 90px;
+        top: 230px;
+    }
+    .ourProducts .wrapper .gameList .gameItem{
+        width:768px;
+    }
+    .ourProducts .wrapper .gameList .gameItem .img img{
+        width:320px;
+    }
+    .ourProducts .wrapper .gameList .gameItem .desc{
+        width:320px;
+        padding: 25px;
+        justify-content: space-between;
+    }
+    .ourProducts .wrapper .gameList .gameItem .price{
+        padding:25px;
+        width: 200px;
+    }
+    main .wrapper .consoleItem .mainInfo{
+        flex-direction: column;
+        
+    }
+    main .wrapper .consoleItem .mainInfo .info{
+        margin-top:40px;
+    }
+    main .wrapper .consoleItem .mainInfo .info{
+        margin-left:0;
+    }
+    main .wrapper .consoleItem .mainInfo .images{
+        width:100%;
+    }
+
+    main .wrapper .consoleItem .mainInfo .info{
+        height:auto;
+    }
+    main .wrapper .consoleItem .mainInfo .slider-for img, iframe{
+        width:768px;
+    }
+
+    main .wrapper .consoleItem .mainInfo .slider-nav img, iframe{
+        width:210px;
+    }
+
+    main .wrapper .consoleItem .mainInfo .slider-nav .item + .item{
+        margin-left:0;
+    }
+    footer .wrapper{
+        width:768px;
+    }
+    footer .wrapper .topFooter{
+        height:400px;
+        padding: 20px;
+    }
+    footer .wrapper .topFooter p{
+        font-size: 15px;
+    }
+    footer{
+        height:459px;
+    }
+    main .additionalInfo .wrapper > div:nth-child(1){
+        padding-left:0
+    }
+    .consoleDesc .consoleDescDiv{
+        height:auto;
+    }
+    main .ourProducts .wrapper .games a{
+        width:768px;
+    }
+    main .banner .description .upStock{
+        font-size: 25px;;
+    }
+    .ourProducts .wrapper .gameList{
+        width:768px;
+    }
+    .consoleDesc .gameTechnicalСharacteristics .charact .item{
+        padding:10px;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    header.main{
+        display:none;
+    }
+    nav{
+        display:block;
+    }
+    .wrapper{
+        width:320px;
+    }
+
+    main .mostPopular .wrapper .mostPopularConsole{
+        margin-bottom:40px;
+    }
+
+    main .additionalInfo .wrapper div img{
+        width:20px;
+        height:20px;
+    }
+    main .mostPopular .wrapper .mostPopularConsole, .overlay{
+        width:320px;
+        margin-right:0;
+    }
+    main .mostPopular .wrapper .mostPopularGame, .overlay{
+        width:320px;
+        margin-left:0;
+    }
+    main .mostPopular .wrapper{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mp:before{
+        left:-60px;
+    }
+    main .additionalInfo .wrapper div .additionalInfoText p:nth-child(1){
+        font-size: 7px;
+    }
+    main .additionalInfo .wrapper div .additionalInfoText p:nth-child(2){
+        font-size: 7px;
+    }
+
+    main .ourProducts .wrapper .products{
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .additionalInfo .wrapper > div{
+        padding-left:20px;
+    }
+    main .mostPopular .wrapper p{
+        font-size: 30px;
+        left: 50px;
+    }
+    main .ourProducts .wrapper .products .consoleCard{
+        margin-bottom:40px;
+    }
+    main .ourProducts .wrapper .games .mp:before{
+        left: -60px;
+        top: 230px;
+    }
+    .upStock:before{
+        width:300px;
+    }
+    .ourProducts .wrapper .gameList .gameItem{
+        width:320px;
+    }
+    .ourProducts .wrapper .gameList .gameItem .img img{
+        width:100px;
+    }
+    .ourProducts .wrapper .gameList .gameItem .desc{
+        width:140px;
+        padding: 25px;
+        justify-content: space-between;
+    }
+    .ourProducts .wrapper .gameList .gameItem .price{
+        padding:25px;
+        width: 200px;
+    }
+    main .wrapper .consoleItem .mainInfo{
+        flex-direction: column;
+        
+    }
+    main .wrapper .consoleItem .mainInfo .info{
+        margin-top:40px;
+    }
+    main .wrapper .consoleItem .mainInfo .info{
+        margin-left:0;
+    }
+    main .wrapper .consoleItem .mainInfo .images{
+        width:280px;
+    }
+
+    main .wrapper .consoleItem .mainInfo .info{
+        height:auto;
+    }
+    main .wrapper .consoleItem .mainInfo .slider-for img, iframe{
+        width:768px;
+    }
+
+    main .wrapper .consoleItem .mainInfo .slider-nav img, iframe{
+        width:210px;
+    }
+
+    main .wrapper .consoleItem .mainInfo .slider-nav img, iframe{
+        height:80px;
+    }
+
+    main .wrapper .consoleItem .mainInfo .slider-nav .item + .item{
+        margin-left:0;
+    }
+    footer .wrapper{
+        width:768px;
+    }
+    footer .wrapper .topFooter{
+        height:400px;
+        padding: 20px;
+    }
+    footer .wrapper .topFooter p{
+        font-size: 15px;
+    }
+    footer{
+        height:459px;
+    }
+    main .additionalInfo .wrapper > div:nth-child(1){
+        padding-left:0
+    }
+    .consoleDesc .consoleDescDiv{
+        height:auto;
+    }
+    main .ourProducts .wrapper .games a{
+        width:768px;
+    }
+    main .banner .description .upStock{
+        font-size: 20px;;
+    }
+    .ourProducts .wrapper .gameList{
+        width:320px;
+    }
+    main .banner .description .name{
+        font-size: 40px;
+    }
+    .consoleDesc .gameTechnicalСharacteristics .charact .item{
+        padding:10px;
+    }
+    main .banner .description a{
+        color:black;
+    }
+    ul.menu-list img:nth-child(1){
+        width: 40px !important;
+        height: 40px !important;  
+        left: -10px !important;
+        margin-bottom: 15px !important;
+    }
+    .navigation-menu{
+        background-color: transparent !important;
+    }
+    .navigation-menu--open .menu-list__item:nth-child(2){
+        width:15px;
+        height: 15px;
+    }
+    ul.menu-list img:nth-child(2) + img:nth-child(3){
+        width:15px;
+        height: 15px;
+    }
+    .menu-list__item{
+        margin: 15px 0 !important;
+        font-size: 10px;
+    }
+    ul.menu-list{
+        padding: 10px 10px 10px 30px !important;
+    }
+    
+    .ourProducts .wrapper .gameList .gameItem .img{
+        width:100px;
+    }
+    .consoleDesc .gameTechnicalСharacteristics .charact .item{
+        padding:21px;
+    }
+
+    .ourProducts .wrapper .gameList .gameItem .desc .name{
+        font-size: 10px;
+    }
+    .ourProducts .wrapper .gameList .gameItem .desc .shortDesc{
+        font-size: 10px;
+    }
+    .consoleDesc .gameTechnicalСharacteristics .tech .item{
+        font-size: 10px;
+    }
+    .consoleDesc .gameTechnicalСharacteristics .charact .item{
+        font-size: 10px;
+    }
+    footer{
+        height:auto;
+    }
+    footer .wrapper .topFooter{
+        display: flex;
+        flex-direction: column;
+        height:auto;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+}
