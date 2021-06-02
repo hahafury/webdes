@@ -451,6 +451,13 @@
         flex-direction: column;
         height:auto;
     }
+    .ourProducts .wrapper .gameList .gameItem .price{
+        font-size: 15px;
+        width:80px;
+    }
+    footer .wrapper .topFooter .ourNewsletter input{
+        width:300px;
+    }
 }
 
 @media only screen and (max-width: 480px){
